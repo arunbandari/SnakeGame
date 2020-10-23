@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<style>
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 15px;
+}
+</style>
 	<title>SNAKE</title>
 	<link rel="stylesheet" type="text/css" href="game.css">
 	
@@ -12,7 +28,7 @@
 	  <input type="radio" onclick="setSpeed(this)" name="speed" value="1000"> <i>Slow</i>
 	  <a href="/game/"><i><b>Restart</b></a></i>
 	</div>
-	<div class="content">
+	<div>
 		<div class="grid">
 		<div id="move"><p class="startText"><i>Press any <b>arrow</b> key to start the action...</i></p></div>
 		<div id="foodId" class="food"></div>
